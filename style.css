@@ -1,0 +1,215 @@
+/*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+.container{
+    height: 500px;
+    width: 90rem;
+    max-width: 90rem;
+    max-height: 500px;
+     align-items: center;
+     justify-content: center;
+     text-align:center ;
+     display: flex;
+     background-color: white;
+     box-shadow:  1px 2px 3px 4px rgba(20,20,20,0.4);
+     border-radius: 25px;
+}
+.main{
+    height: 500px;
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec01{
+    color: white;
+    width: 25rem;
+    height: 300px;
+    border: 2px ;
+    background-color: rgb(25, 97, 206);
+     padding: 20px;
+     border-radius: 25px;
+     
+
+}
+.sec02{
+    color: white;
+    width: 25rem;
+    height: 300px;
+    border: 2px ;
+    background-color: black;
+     padding: 20px;
+     align-items: center;
+     text-align: center;
+     
+}
+.yo{
+    font-weight: 200;
+    padding-top: 20px;
+    align-items: center;
+}
+.circle{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(99, 46, 96);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}*/
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.container{
+    background-color: aliceblue;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    width: 40rem;
+    height: 450px;
+    display: flex;
+
+}
+.main{
+    padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box1{
+    background-image: linear-gradient(#6743FF, #312CE8);
+    display: '\f037';
+    border-radius: 25px;
+    width: 50%;
+    align-content: center;
+    justify-content: flex-start;
+}
+.yo{
+    color: white;
+    align-content: center;
+    font-weight: 300px;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+}
+.box2{
+    text-align: center;
+    justify-content: center;   
+    width: 50%;
+   
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(#1a14db,#785bf7);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;   
+   
+}
+.value{
+    color: white;
+}
+.great{
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+ 
+}
+.summary{
+    text-align: center;
+    color: black;
+    justify-content: center;
+    
+}
+.set01{
+    border-radius:  15px; 
+    height: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    align-self: auto;
+    justify-content: space-between;
+}
+.set02{
+    border-radius:  15px; 
+    height: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    align-self: auto;
+    justify-content: space-between;
+}
+.set03{
+    border-radius:  15px; 
+    height: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    align-self: auto;
+    justify-content: space-between;
+}.set04{
+    border-radius:  15px; 
+    height: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    align-self: auto;
+    justify-content: space-between;
+}
+.align{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.container2{
+    margin-top: 40px;
+    flex-direction: column;
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+
+}
+.cap{
+    font-weight: 600;
+}
+.con{
+    color: white;
+    height: 45px;
+    width: 200px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+button:hover{
+    border: white;
+    font-weight: bold;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
